@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.polygon {
+  fill: purple;
+  stroke: pink;
+  opacity: 1;
+}
+.polygon:hover {
+  fill: pink;
+  stroke: purple;
+  opacity: 0.8;
+}
